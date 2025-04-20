@@ -30,7 +30,7 @@
         "noEmptyTypeParameters": "error",
         "noExcessiveCognitiveComplexity": "error",
         "noExtraBooleanCast": "error",
-        "noForEach": "info",
+        "noForEach": "info", // Allow forEach usage despite Biome flagging it for performance reasons as we need it in our project
         "noStaticOnlyClass": "error",
         "noUselessCatch": "error",
         "noUselessEmptyExport": "error",
