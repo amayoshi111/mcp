@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "bun build ./src/index.ts --outdir=build --minify --no-sourcemap",
-    "fmt": "bunx biome format --write ./src"
+    "fmt": "bunx biome check --write ./src"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
