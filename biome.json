@@ -30,7 +30,7 @@
         "noEmptyTypeParameters": "error",
         "noExcessiveCognitiveComplexity": "error",
         "noExtraBooleanCast": "error",
-        "noForEach": "error",
+        "noForEach": "info",
         "noStaticOnlyClass": "error",
         "noUselessCatch": "error",
         "noUselessEmptyExport": "error",
