@@ -1,0 +1,10 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome" // Biome を言語別に適用、Prettier を上書きする
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  }
+}
